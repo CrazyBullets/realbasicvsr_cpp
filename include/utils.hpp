@@ -11,15 +11,18 @@ public:
     ~utils();
 
     int pre_process();
-    int inference();
+    int inference(std::string  model_path);
     int post_process();
 
     // float *input_data;
     cv::Mat img;
-    std::vector<float> input_data;
+    int ROWS,COLS,CHANNELS;
+    std::vector<float>input_data;
     int input_size;
+    std::vector<float>output_data;
+    int output_size;
+    cv::Mat output_img;
 
-    float*output_data;
 };
 
 

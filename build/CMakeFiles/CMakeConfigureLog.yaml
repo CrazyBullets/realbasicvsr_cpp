@@ -4,20 +4,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      The system is: Windows - 10.0.19045 - AMD64
+      The system is: Linux - 5.15.122-tegra - aarch64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/MyLibrary/MinGW14_2/mingw64/bin/gcc.exe 
+      Compiler: /usr/bin/cc 
       Build flags: 
       Id flags:  
       
@@ -25,21 +25,21 @@ events:
       0
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        C:/Codes/CPP/real_basicvsr/build/CMakeFiles/3.31.0/CompilerIdC/a.exe
+        /root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/3.29.0/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/MyLibrary/MinGW14_2/mingw64/bin/g++.exe 
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
@@ -47,22 +47,22 @@ events:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        C:/Codes/CPP/real_basicvsr/build/CMakeFiles/3.31.0/CompilerIdCXX/a.exe
+        /root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/3.29.0/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285"
-      binary: "C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285"
+      source: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N"
+      binary: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,595 +71,606 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285'
+        Change Dir: '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N'
         
-        Run Build Command(s): C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_29adb/fast
-        C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_29adb.dir\\build.make CMakeFiles/cmTC_29adb.dir/build
-        mingw32-make[1]: Entering directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285'
-        Building C object CMakeFiles/cmTC_29adb.dir/CMakeCCompilerABI.c.obj
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj -c C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b451e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b451e.dir/build.make CMakeFiles/cmTC_b451e.dir/build
+        gmake[1]: Entering directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N'
+        Building C object CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        COLLECT_GCC=/usr/bin/cc
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 14.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_29adb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\A\\AppData\\Local\\Temp\\ccgJDPxS.s
-        GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)
-        	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/'
+         /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b451e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccZECTKu.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"
-        ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"
-        ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/mingw/include"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
+         /usr/lib/gcc/aarch64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
         End of search list.
-        Compiler executable checksum: d5a544850dcc030d272331edc2520bfc
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\A\\AppData\\Local\\Temp\\ccgJDPxS.s
-        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
-        COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_29adb.exe
-        C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_29adb.dir\\link.txt --verbose=1
-        C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_29adb.dir/objects.a
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_29adb.dir/objects.a @CMakeFiles\\cmTC_29adb.dir\\objects1.rsp
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_29adb.dir/objects.a -Wl,--no-whole-archive -o cmTC_29adb.exe -Wl,--out-implib,libcmTC_29adb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o /tmp/ccZECTKu.s
+        GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b451e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b451e.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -o cmTC_b451e
         Using built-in specs.
-        COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe
-        COLLECT_LTO_WRAPPER=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 14.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
-        COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29adb.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_29adb.'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\ccYP2eyd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_29adb.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_29adb.dir/objects.a --no-whole-archive --out-implib libcmTC_29adb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
-        collect2 version 14.2.0
-        C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\ccYP2eyd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_29adb.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_29adb.dir/objects.a --no-whole-archive --out-implib libcmTC_29adb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
-        GNU ld (GNU Binutils) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29adb.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_29adb.'
-        mingw32-make[1]: Leaving directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285'
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b451e' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b451e.'
+         /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ04L71.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b451e /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ04L71.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b451e /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b451e' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b451e.'
+        gmake[1]: Leaving directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
         end of search list found
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/include]
-        implicit include dirs: [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/include]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285']
+        ignore line: [Change Dir: '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_29adb/fast]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_29adb.dir\\build.make CMakeFiles/cmTC_29adb.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-p51285']
-        ignore line: [Building C object CMakeFiles/cmTC_29adb.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj -c C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b451e/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b451e.dir/build.make CMakeFiles/cmTC_b451e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-9oSu7N']
+        ignore line: [Building C object CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe]
-        ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 14.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\']
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_29adb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\A\\AppData\\Local\\Temp\\ccgJDPxS.s]
-        ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)]
-        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b451e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccZECTKu.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"]
-        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"]
-        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/mingw/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: d5a544850dcc030d272331edc2520bfc]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\']
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\A\\AppData\\Local\\Temp\\ccgJDPxS.s]
-        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
-        ignore line: [COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
-        ignore line: [LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_29adb.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_29adb.exe]
-        ignore line: [C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_29adb.dir\\link.txt --verbose=1]
-        ignore line: [C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_29adb.dir/objects.a]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_29adb.dir/objects.a @CMakeFiles\\cmTC_29adb.dir\\objects1.rsp]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_29adb.dir/objects.a -Wl --no-whole-archive -o cmTC_29adb.exe -Wl --out-implib libcmTC_29adb.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o /tmp/ccZECTKu.s]
+        ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b451e]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b451e.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -o cmTC_b451e]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
-        ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 14.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
-        ignore line: [LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29adb.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_29adb.']
-        link line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\ccYP2eyd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_29adb.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_29adb.dir/objects.a --no-whole-archive --out-implib libcmTC_29adb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b451e' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b451e.']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ04L71.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b451e /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
-          arg [-plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\ccYP2eyd.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZ04L71.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [--sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64] ==> ignore
-          arg [-m] ==> ignore
-          arg [i386pep] ==> ignore
-          arg [-Bdynamic] ==> search dynamic
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_29adb.exe] ==> ignore
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
+          arg [cmTC_b451e] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_29adb.dir/objects.a] ==> ignore
-          arg [--no-whole-archive] ==> ignore
-          arg [--out-implib] ==> ignore
-          arg [libcmTC_29adb.dll.a] ==> ignore
-          arg [--major-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [--minor-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [-lmingw32] ==> lib [mingw32]
+          arg [CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
-          arg [-lgcc_eh] ==> lib [gcc_eh]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lpthread] ==> lib [pthread]
-          arg [-ladvapi32] ==> lib [advapi32]
-          arg [-lshell32] ==> lib [shell32]
-          arg [-luser32] ==> lib [user32]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-liconv] ==> lib [iconv]
-          arg [-lmingw32] ==> lib [mingw32]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
           arg [-lgcc] ==> lib [gcc]
-          arg [-lgcc_eh] ==> lib [gcc_eh]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        linker tool for 'C': ../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe
-        remove lib [gcc_eh]
-        remove lib [msvcrt]
-        remove lib [gcc_eh]
-        remove lib [msvcrt]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib/crt2.o]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib]
-        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;mingwex;kernel32]
-        implicit objs: [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        implicit dirs: [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc;C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib;C:/MyLibrary/MinGW14_2/mingw64/lib]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ04L71.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b451e /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b451e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
         implicit fwks: []
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Running the C compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-v"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Running the C compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-V"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Running the C compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "--version"
-      
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm"
-      binary: "C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm"
+      source: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1"
+      binary: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm'
+        Change Dir: '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1'
         
-        Run Build Command(s): C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9004a/fast
-        C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9004a.dir\\build.make CMakeFiles/cmTC_9004a.dir/build
-        mingw32-make[1]: Entering directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm'
-        Building CXX object CMakeFiles/cmTC_9004a.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd67f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bd67f.dir/build.make CMakeFiles/cmTC_bd67f.dir/build
+        gmake[1]: Entering directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1'
+        Building CXX object CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        COLLECT_GCC=/usr/bin/c++
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 14.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_9004a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\A\\AppData\\Local\\Temp\\ccHe3OYM.s
-        GNU C++17 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)
-        	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/'
+         /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bd67f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccTo9HYb.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"
-        ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"
-        ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"
-        ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/mingw/include"
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
+         /usr/include/c++/11
+         /usr/include/aarch64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/aarch64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
         End of search list.
-        Compiler executable checksum: 15f296cf435fc9ed11e3f0c1160bfabc
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\A\\AppData\\Local\\Temp\\ccHe3OYM.s
-        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
-        COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9004a.exe
-        C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9004a.dir\\link.txt --verbose=1
-        C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9004a.dir/objects.a
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_9004a.dir/objects.a @CMakeFiles\\cmTC_9004a.dir\\objects1.rsp
-        C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9004a.dir/objects.a -Wl,--no-whole-archive -o cmTC_9004a.exe -Wl,--out-implib,libcmTC_9004a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3e6e780af1232722b47e0979fda82402
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTo9HYb.s
+        GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_bd67f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd67f.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bd67f
         Using built-in specs.
-        COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe
-        COLLECT_LTO_WRAPPER=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
-        Target: x86_64-w64-mingw32
-        Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 14.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
-        COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9004a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9004a.'
-         C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\cc7VAp15.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_9004a.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9004a.dir/objects.a --no-whole-archive --out-implib libcmTC_9004a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
-        collect2 version 14.2.0
-        C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\cc7VAp15.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_9004a.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9004a.dir/objects.a --no-whole-archive --out-implib libcmTC_9004a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
-        GNU ld (GNU Binutils) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9004a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9004a.'
-        mingw32-make[1]: Leaving directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm'
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bd67f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_bd67f.'
+         /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccajJ0Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_bd67f /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccajJ0Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_bd67f /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bd67f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_bd67f.'
+        gmake[1]: Leaving directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-          add: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+          add: [/usr/include/c++/11]
+          add: [/usr/include/aarch64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
         end of search list found
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-        collapse include dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/include]
-        implicit include dirs: [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/include]
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/aarch64-linux-gnu/c++/11] ==> [/usr/include/aarch64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/aarch64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm']
+        ignore line: [Change Dir: '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9004a/fast]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9004a.dir\\build.make CMakeFiles/cmTC_9004a.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Codes/CPP/real_basicvsr/build/CMakeFiles/CMakeScratch/TryCompile-tnxipm']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9004a.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd67f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_bd67f.dir/build.make CMakeFiles/cmTC_bd67f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-Y9RPH1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe]
-        ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 14.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\']
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_9004a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\A\\AppData\\Local\\Temp\\ccHe3OYM.s]
-        ignore line: [GNU C++17 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) version 14.2.0 (x86_64-w64-mingw32)]
-        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bd67f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccTo9HYb.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include"]
-        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"]
-        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/mingw/include"]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 15f296cf435fc9ed11e3f0c1160bfabc]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\']
-        ignore line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\A\\AppData\\Local\\Temp\\ccHe3OYM.s]
-        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
-        ignore line: [COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
-        ignore line: [LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9004a.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9004a.exe]
-        ignore line: [C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9004a.dir\\link.txt --verbose=1]
-        ignore line: [C:\\MyLibrary\\Cmake\\cmake-3.31.0-windows-x86_64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9004a.dir/objects.a]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_9004a.dir/objects.a @CMakeFiles\\cmTC_9004a.dir\\objects1.rsp]
-        ignore line: [C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_9004a.dir/objects.a -Wl --no-whole-archive -o cmTC_9004a.exe -Wl --out-implib libcmTC_9004a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3e6e780af1232722b47e0979fda82402]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTo9HYb.s]
+        ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_bd67f]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd67f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bd67f]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
-        ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../../../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 14.2.0 (x86_64-posix-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COMPILER_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/]
-        ignore line: [LIBRARY_PATH=C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9004a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9004a.']
-        link line: [ C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\cc7VAp15.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_9004a.exe C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9004a.dir/objects.a --no-whole-archive --out-implib libcmTC_9004a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bd67f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_bd67f.']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccajJ0Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_bd67f /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
-          arg [-plugin-opt=C:/MyLibrary/MinGW14_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\A\\AppData\\Local\\Temp\\cc7VAp15.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccajJ0Ba.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [--sysroot=C:/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64] ==> ignore
-          arg [-m] ==> ignore
-          arg [i386pep] ==> ignore
-          arg [-Bdynamic] ==> search dynamic
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9004a.exe] ==> ignore
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib]
-          arg [-LC:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
+          arg [cmTC_bd67f] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_9004a.dir/objects.a] ==> ignore
-          arg [--no-whole-archive] ==> ignore
-          arg [--out-implib] ==> ignore
-          arg [libcmTC_9004a.dll.a] ==> ignore
-          arg [--major-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [--minor-image-version] ==> ignore
-          arg [0] ==> ignore
+          arg [CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
-          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
           arg [-lgcc] ==> lib [gcc]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lpthread] ==> lib [pthread]
-          arg [-ladvapi32] ==> lib [advapi32]
-          arg [-lshell32] ==> lib [shell32]
-          arg [-luser32] ==> lib [user32]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-liconv] ==> lib [iconv]
-          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lc] ==> lib [c]
           arg [-lgcc_s] ==> lib [gcc_s]
           arg [-lgcc] ==> lib [gcc]
-          arg [-lmingwex] ==> lib [mingwex]
-          arg [-lmsvcrt] ==> lib [msvcrt]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        linker tool for 'CXX': ../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe
-        remove lib [msvcrt]
-        remove lib [msvcrt]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib/crt2.o]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
-        collapse obj [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib]
-        collapse library dir [C:/MyLibrary/MinGW14_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> [C:/MyLibrary/MinGW14_2/mingw64/lib]
-        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;mingwex;kernel32]
-        implicit objs: [C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
-        implicit dirs: [C:/MyLibrary/MinGW14_2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0;C:/MyLibrary/MinGW14_2/mingw64/lib/gcc;C:/MyLibrary/MinGW14_2/mingw64/x86_64-w64-mingw32/lib;C:/MyLibrary/MinGW14_2/mingw64/lib]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccajJ0Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_bd67f /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bd67f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
         implicit fwks: []
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/local/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-v"
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:640 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:766 (_CUDAToolkit_find_root_dir)"
+      - "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:143 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Executed nvcc to extract CUDAToolkit information:
+      #$ _NVVM_BRANCH_=nvvm
+      #$ _SPACE_= 
+      #$ _CUDART_=cudart
+      #$ _HERE_=/usr/local/cuda-12.2/bin
+      #$ _THERE_=/usr/local/cuda-12.2/bin
+      #$ _TARGET_SIZE_=
+      #$ _TARGET_DIR_=
+      #$ _TARGET_DIR_=targets/aarch64-linux
+      #$ TOP=/usr/local/cuda-12.2/bin/..
+      #$ NVVMIR_LIBRARY_DIR=/usr/local/cuda-12.2/bin/../nvvm/libdevice
+      #$ LD_LIBRARY_PATH=/usr/local/cuda-12.2/bin/../lib:/usr/local/cuda-12.2/lib64:/usr/local/TensorRT/lib:/usr/local/opencv/lib:/usr/local/cuda-12.2/lib64:/usr/local/TensorRT/lib:/usr/local/opencv/lib::/usr/local/ffmpeg/lib/:/usr/local/nvmpi/lib/:/usr/local/ffmpeg/lib/:/usr/local/nvmpi/lib/
+      #$ PATH=/usr/local/cuda-12.2/bin/../nvvm/bin:/usr/local/cuda-12.2/bin:/usr/local/cuda-12.2/bin:/usr/local/TensorRT/bin:/root/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/usr/local/cuda-12.2/bin:/usr/local/TensorRT/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/ffmpeg/bin/:/usr/local/ffmpeg/bin/
+      #$ INCLUDES="-I/usr/local/cuda-12.2/bin/../targets/aarch64-linux/include"  
+      #$ LIBRARIES=  "-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib/stubs" "-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib"
+      #$ CUDAFE_FLAGS=
+      #$ PTXAS_FLAGS=
+      nvcc fatal   : Don't know what to do with '__cmake_determine_cuda'
+      
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:644 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:766 (_CUDAToolkit_find_root_dir)"
+      - "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:143 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     message: |
-      Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "-V"
+      Parsed CUDAToolkit nvcc location:
+      /usr/local/cuda-12.2/bin
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/MyLibrary/Cmake/cmake-3.31.0-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:656 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:766 (_CUDAToolkit_find_root_dir)"
+      - "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:143 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     message: |
-      Running the CXX compiler's linker: "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe" "--version"
+      Parsed CUDAToolkit nvcc implicit include information:
+      /usr/local/cuda-12.2/targets/aarch64-linux/include
       
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:671 (message)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:766 (_CUDAToolkit_find_root_dir)"
+      - "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:143 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    message: |
+      Parsed CUDAToolkit nvcc implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld   "-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib/stubs" "-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib"]
+          arg [cuda-fake-ld] ==> ignore
+          arg [-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib/stubs] ==> dir [/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib/stubs]
+          arg [-L/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib] ==> dir [/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib]
+        collapse library dir [/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib/stubs] ==> [/usr/local/cuda-12.2/targets/aarch64-linux/lib/stubs]
+        collapse library dir [/usr/local/cuda-12.2/bin/../targets/aarch64-linux/lib] ==> [/usr/local/cuda-12.2/targets/aarch64-linux/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/local/cuda-12.2/targets/aarch64-linux/lib/stubs;/usr/local/cuda-12.2/targets/aarch64-linux/lib]
+        implicit fwks: []
+      
+      /usr/local/cuda-12.2/targets/aarch64-linux/lib/stubs;/usr/local/cuda-12.2/targets/aarch64-linux/lib
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/share/cmake-3.29/Modules/FindCUDAToolkit.cmake:1146 (find_package)"
+      - "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake:143 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW"
+      binary: "/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58bc4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_58bc4.dir/build.make CMakeFiles/cmTC_58bc4.dir/build
+        gmake[1]: Entering directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW'
+        Building C object CMakeFiles/cmTC_58bc4.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_58bc4.dir/src.c.o -c /root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW/src.c
+        Linking C executable cmTC_58bc4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bc4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_58bc4.dir/src.c.o -o cmTC_58bc4
+        gmake[1]: Leaving directory '/root/zst/Realbasicvsr/realbasicvsr_cpp/build/CMakeFiles/CMakeScratch/TryCompile-WJZASW'
+        
+      exitCode: 0
 ...
