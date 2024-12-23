@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Codes/CPP/real_basicvsr/build/src",
+  "command": "C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe  @CMakeFiles/my_executable.dir/includes_CXX.rsp -g -o CMakeFiles\\my_executable.dir\\main.cc.obj -c C:\\Codes\\CPP\\real_basicvsr\\src\\main.cc",
+  "file": "C:/Codes/CPP/real_basicvsr/src/main.cc",
+  "output": "src/CMakeFiles/my_executable.dir/main.cc.obj"
+},
+{
+  "directory": "C:/Codes/CPP/real_basicvsr/build/src",
+  "command": "C:\\MyLibrary\\MinGW14_2\\mingw64\\bin\\g++.exe  @CMakeFiles/my_executable.dir/includes_CXX.rsp -g -o CMakeFiles\\my_executable.dir\\utils.cc.obj -c C:\\Codes\\CPP\\real_basicvsr\\src\\utils.cc",
+  "file": "C:/Codes/CPP/real_basicvsr/src/utils.cc",
+  "output": "src/CMakeFiles/my_executable.dir/utils.cc.obj"
+}
+]
