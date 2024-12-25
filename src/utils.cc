@@ -15,11 +15,11 @@ utils::utils(/* args */cv::Mat& img_input)
     CHANNELS = img.channels();
     
     input_size = ROWS*COLS*CHANNELS*2;
-    output_size = ROWS*COLS*4*CHANNELS*4;
+    output_size = input_size + ROWS*4*COLS*4*CHANNELS*2;
 
     input_data = std::vector<float>(input_size);
     output_data = std::vector<float>(output_size);
-    output_img = cv::Mat(ROWS*4,COLS*4,CV_16FC3);
+    output_img = cv::Mat(ROWS*4,COLS*4,CV_8UC3);
 }
 
 utils::~utils()
@@ -35,7 +35,7 @@ int utils::pre_process(){
     cv::minMaxLoc(img, nullptr, &max_val, nullptr, nullptr);
     if(max_val < 256){
         std::cout << "image is in 0-255 range." << std::endl;
-        img.convertTo(img, CV_32F, 1.0/255.0);
+        // img.convertTo(img, CV_32F, 1.0/255.0);
     }
     else{
         std::cout << "image is in 0-65535 range." << std::endl;
@@ -52,7 +52,7 @@ int utils::pre_process(){
                 //img(row, col, channel) -> input_data(channel, row, col)
                 int new_idx = channel*ROWS*COLS + row*COLS + col;
                 // std::cout << "input_data[" <<  static_cast<float>(img.ptr<uchar>(row, col)[channel]) << std::endl;
-                input_data[new_idx] = img.ptr<uchar>(row, col)[channel];
+                input_data[new_idx] = img.ptr<uchar>(row, col)[channel]/255.;
                 input_data[new_idx + input_size/2] = input_data[new_idx];
             }
         }
@@ -120,12 +120,12 @@ int utils::post_process(){
     for(int channel = 0;channel < CHANNELS;channel++){
         for(int row = 0; row < ROWS*4; row++){
             for(int col = 0; col < COLS*4; col++){
-                float16_t temp = output_data[channel*ROWS*4*COLS*4 + row*COLS*4 + col];
-                output_img.ptr<float16_t>(row,col)[channel] = temp;
+                
+                output_img.ptr<uchar>(row,col)[channel] = static_cast<uchar>(output_data[channel*ROWS*4*COLS*4 + row*COLS*4 + col + input_size])*255.;
             }
         }
     }
-
+    // cv::cvtColor(output_img, output_img, cv::COLOR_RGB2BGR);
     if(cv::imwrite("/root/zst/Realbasicvsr/realbasicvsr_cpp/results/test.png",output_img)){
         std::cout<<"color png is  saved successfully in /root/zst/Realbasicvsr/realbasicvsr_cpp/results/test.png"<<std::endl;
     }
