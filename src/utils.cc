@@ -50,7 +50,8 @@ int utils::pre_process(){
         for(int col = 0; col < COLS; col++){
             for(int channel = 0; channel < CHANNELS; channel++){
                 //img(row, col, channel) -> input_data(channel, row, col)
-                int new_idx = channel*ROWS*COLS + row*COLS + col;
+                // int new_idx = channel*ROWS*COLS + row*COLS + col;
+                int new_idx = (row*COLS+col)*CHANNELS+channel;
                 // std::cout << "input_data[" <<  static_cast<float>(img.ptr<uchar>(row, col)[channel]) << std::endl;
                 input_data[new_idx] = img.ptr<uchar>(row, col)[channel]/255.;
                 input_data[new_idx + input_size/2] = input_data[new_idx];
@@ -116,12 +117,25 @@ int utils::inference(std::string  model_path){
 int utils::post_process(){
     //(c,h,w)  -> (h,w,c)
 
-    std::cerr<<"img_output row,cols,channel:"<<output_img.rows<<","<<output_img.cols<<","<<output_img.channels()<<std::endl;
-    for(int channel = 0;channel < CHANNELS;channel++){
-        for(int row = 0; row < ROWS*4; row++){
-            for(int col = 0; col < COLS*4; col++){
+    // std::cerr<<"img_output row,cols,channel:"<<output_img.rows<<","<<output_img.cols<<","<<output_img.channels()<<std::endl;
+    // for(int channel = 0;channel < CHANNELS;channel++){
+    //     for(int row = 0; row < ROWS*4; row++){
+    //         for(int col = 0; col < COLS*4; col++){
                 
-                output_img.ptr<uchar>(row,col)[channel] = static_cast<uchar>(output_data[channel*ROWS*4*COLS*4 + row*COLS*4 + col + input_size])*255.;
+    //             output_img.ptr<uchar>(row,col)[channel] = static_cast<uchar>(output_data[channel*ROWS*4*COLS*4 + row*COLS*4 + col + input_size])*255.;
+    //         }
+    //     }
+    // }
+
+    for(int row = 0; row < ROWS*4; row++){
+        for(int col = 0; col < COLS*4; col++){
+            for(int channel = 0; channel < CHANNELS; channel++){
+                //img(row, col, channel) -> input_data(channel, row, col)
+                // int new_idx = channel*ROWS*COLS + row*COLS + col;
+                int new_idx = (row*COLS*4+col)*CHANNELS+channel + input_size;
+                // std::cout << "input_data[" <<  static_cast<float>(img.ptr<uchar>(row, col)[channel]) << std::endl;
+            
+                output_img.ptr<uchar>(row,col)[channel] = static_cast<uchar>(output_data[new_idx])*255.;
             }
         }
     }
